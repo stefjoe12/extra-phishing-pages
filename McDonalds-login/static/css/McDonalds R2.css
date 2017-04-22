@@ -1,0 +1,229 @@
+.main-line {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.sub-line {
+	text-align:center;
+    font-size: 10px;
+}
+
+.no-social-media {
+	text-align:center;
+}
+
+html, body {
+  width: 100%;
+  margin: 0px;
+  font-family: 'HelveticaNeue', sans-serif;
+  font-size:100%;  	
+  font-size:1em;
+}
+
+.bold {
+	font-weight:bold;
+}
+
+.main-container {
+	height:100%;
+	width:100%;
+  	margin:0px;
+  	position:relative;
+
+}
+
+
+.background-image-container {
+	overflow: hidden; 
+}
+
+.header-image {
+
+}
+
+.frifi-logo {
+	right:2%;
+	top:2%;
+	height:82px;
+	width:90px;
+	position:fixed;
+}
+
+
+
+.button-container {
+	margin-left: auto; 
+	margin-right:auto;
+	margin-top:3%;
+	width:100%;
+	text-align:center;
+}
+
+.direct-access-container {
+	text-align:center;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:5%;
+}      
+
+.main-container-image {
+    margin: 0 center;
+}
+
+.left-image-container {
+	top:0px;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+	z-index: 3;
+}
+
+
+
+
+.center-image-container {
+	top:0px;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.right-image-container {
+	top:0px;
+	position:absolute;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.main-container-button {
+	height:100%;
+	width:100%;
+  	margin:0px;
+	height:100px;
+   	position:absolute;
+    bottom:0;
+}
+
+.info-button-container {
+	width:100%;
+	height:100%;
+	background-color:#fff;
+	position:fixed;
+   	
+}
+
+img {
+	width:100%;
+	height:100%;
+	border-width: 0;
+}
+
+
+div.button {
+  width:133px; 
+  height:171px; 
+  margin-left:5%;
+  margin-right:5%;
+  position:relative;
+  display:inline-block;
+}
+
+div.button img {
+	width:100%; 
+	height:100%; 
+}
+
+
+@media only screen  and (orientation : landscape) { 
+
+
+	div.button {
+	  margin-left:2%;
+	  margin-right:2%;
+	}
+
+}
+
+a {
+    color: #08c !important;
+}
+
+#generalConditionsModal {
+	padding-left: 0px !important;
+}
+
+button {
+	font-size: 40px !important;
+	line-height: 25px !important;
+	overflow: visible !important;
+	margin-top: -17px !important;
+}
+
+.modal .modal-header .close {
+	color: red;
+}
+
+.modal-dialog {
+	max-width: 80%;
+	margin: 5% auto;
+}
+
+@media only screen and (max-width:480px) {
+	.modal-dialog {
+	max-width: 90% !important;
+	margin: 5% auto;
+	}
+}
+
+.modal-body {
+	position: relative;
+	padding: 3%;
+}
+
+
+@media only screen and (max-width:480px) {
+	textarea {
+	min-height: 250px !important;
+	}
+}
+
+.modal-content {
+	position: relative;
+	border: 1px solid #999;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 6px;
+	-webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+	box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	outline: 0;
+	width: 100%;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f2f2f2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f2f2f2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f2f2f2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+}
+
+div.modal-body textarea {
+	border-color: none !important;
+	border: none !important;
+	-webkit-box-shadow: inset 0px 0px 16px 0px rgba(50, 50, 50, 0.47) !important;
+	-moz-box-shadow: inset 0px 0px 16px 0px rgba(50, 50, 50, 0.47) !important;
+	box-shadow: inset 0px 0px 16px 0px rgba(50, 50, 50, 0.47);
+	padding: 1%;
+	border-radius: 5px;
+}
+
+.general-conditions-container {
+	margin-left: auto; 
+	margin-right:auto;
+	margin-top:3%;
+	width:100%;
+	text-align:center;
+}
